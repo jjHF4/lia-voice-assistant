@@ -3,3 +3,4 @@ cohere
 gtts
 pygame
 SpeechRecognition
+pyaudio
