@@ -1,0 +1,6 @@
+streamlit
+cohere
+gtts
+pygame
+SpeechRecognition
+pyaudio
