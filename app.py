@@ -10,8 +10,7 @@ import os
 import speech_recognition as sr
 
 # Initialize Cohere
-co = cohere.Client("XGZCYmeYPEX10okTMBDmPhotdPlW1OWpnRCT6Cfr")
-
+co = cohere.Client(os.environ["COHERE_API_KEY"])
 # Page config
 st.set_page_config(page_title="LIA - Voice Agent", layout="centered")
 st.title("🩺 LIA - Hospital Voice Assistant")
